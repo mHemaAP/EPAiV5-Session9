@@ -20,6 +20,8 @@ A **Regular Convex Polygon** is a special type of polygon that satisfies the fol
     
 3.  **Convexity**: The polygon is convex, which means that all its interior angles are less than 180 degrees. In other words, no part of the polygon is "indented" or "caved in"; the line segment between any two points on the polygon's boundary always lies inside or on the polygon.
     
+#### **Diagram**
+![Regular Strict Convex Polygon](regular_strict_convex_polygon.JPG)
 
 #### **Examples**
 
@@ -33,32 +35,22 @@ A **Regular Convex Polygon** is a special type of polygon that satisfies the fol
     
 2.  **Interior Angle**: The measure of each interior angle $\theta$ of a regular polygon is given by:
    
-    $$
-    {Interior Angle, \theta} = \frac{(n - 2) \times 180^\circ}{n}
-    $$
+    ${Interior Angle, \theta} = \frac{(n - 2) \times 180^\circ}{n}$
     
     This formula comes from dividing the total interior angle sum of a polygon which is $(n-2) \times 180^\circ$ by the number of angles $n$.
     
 3.  **Edge Length**: The exterior angle of a regular polygon (the angle between one side of the polygon and the extension of an adjacent side) is:
-    $$
-    {Edge Length, s} = 2 \times R \times \sin\left(\frac{\pi}{n}\right)
-    $$   
+    ${Edge Length, s} = 2 \times R \times \sin\left(\frac{\pi}{n}\right)$   
     
 4.  **Circumradius**: The circumradius $R$ is the radius of the circle that passes through all the vertices of the polygon. 
     
 5.  **Apothem**: The apothem is the distance from the center of the polygon to the midpoint of one of its sides. It is also the radius of the inscribed circle within the polygon. The apothem $r$ can be calculated using:
     
-    $$
-    {Apothem, a} = R \times \cos\left(\frac{\pi}{n}\right)
-    $$
+    ${Apothem, a} = R \times \cos\left(\frac{\pi}{n}\right)$
 6.  **Area**: The area $A$ of a regular convex polygon can be computed using:
-    $$
-    {Area, A} = \frac{1}{2} \times n \times s \times a
-    $$     
+    ${Area, A} = \frac{1}{2} \times n \times s \times a$     
 7.  **Perimeter**: The perimeter $P$ of a regular polygon is simply the number of sides multiplied by the side length:
-    $$
-    {Perimeter, P} = n \times s
-    $$ 
+    ${Perimeter, P} = n \times s$ 
 
 
 ## Class Descriptions
